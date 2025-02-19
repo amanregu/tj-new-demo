@@ -1,0 +1,134 @@
+{
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "type": "front-end",
+          "id": "40975ecf-68b1-49ec-8fc7-bd68fd4dde0e",
+          "name": "HI25",
+          "slug": "40975ecf-68b1-49ec-8fc7-bd68fd4dde0e",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": "grid",
+          "organizationId": "f9260344-ed8a-4c36-add3-eb5d260b147c",
+          "currentVersionId": null,
+          "userId": "f94cdcfb-05fc-422d-9834-a47907f75370",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2025-02-19T20:28:05.734Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2025-02-19T20:28:05.733Z",
+          "editingVersion": {
+            "id": "5ac2b3e6-afc2-4ed9-816a-d424b9af2cef",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": false,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "pageSettings": null,
+            "showViewerNavigation": true,
+            "homePageId": "dd60d844-c026-4537-be90-791f7abfb991",
+            "appId": "40975ecf-68b1-49ec-8fc7-bd68fd4dde0e",
+            "currentEnvironmentId": "fa7511c0-7e30-4d7b-b840-4525d263ce99",
+            "promotedFrom": null,
+            "createdAt": "2025-02-19T20:28:05.740Z",
+            "updatedAt": "2025-02-19T20:28:05.733Z"
+          },
+          "components": [],
+          "pages": [
+            {
+              "id": "dd60d844-c026-4537-be90-791f7abfb991",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "icon": null,
+              "createdAt": "2025-02-19T20:28:05.733Z",
+              "updatedAt": "2025-02-19T20:28:07.717Z",
+              "autoComputeLayout": true,
+              "appVersionId": "5ac2b3e6-afc2-4ed9-816a-d424b9af2cef",
+              "pageGroupIndex": 1,
+              "pageGroupId": null,
+              "isPageGroup": false
+            }
+          ],
+          "events": [],
+          "dataQueries": [],
+          "dataSources": [],
+          "appVersions": [
+            {
+              "id": "5ac2b3e6-afc2-4ed9-816a-d424b9af2cef",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": false,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "pageSettings": null,
+              "showViewerNavigation": true,
+              "homePageId": "dd60d844-c026-4537-be90-791f7abfb991",
+              "appId": "40975ecf-68b1-49ec-8fc7-bd68fd4dde0e",
+              "currentEnvironmentId": "fa7511c0-7e30-4d7b-b840-4525d263ce99",
+              "promotedFrom": null,
+              "createdAt": "2025-02-19T20:28:05.740Z",
+              "updatedAt": "2025-02-19T20:28:05.733Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "fa7511c0-7e30-4d7b-b840-4525d263ce99",
+              "organizationId": "f9260344-ed8a-4c36-add3-eb5d260b147c",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-03-19T12:15:39.765Z",
+              "updatedAt": "2024-03-19T12:15:39.765Z"
+            },
+            {
+              "id": "4c54883a-e2dd-4028-b174-d0a8642441c1",
+              "organizationId": "f9260344-ed8a-4c36-add3-eb5d260b147c",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-03-19T12:15:39.765Z",
+              "updatedAt": "2024-03-19T12:15:39.765Z"
+            },
+            {
+              "id": "8c53ad69-1293-4389-bfe2-a22716566f98",
+              "organizationId": "f9260344-ed8a-4c36-add3-eb5d260b147c",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-03-19T12:15:39.765Z",
+              "updatedAt": "2024-03-19T12:15:39.765Z"
+            }
+          ],
+          "dataSourceOptions": [],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.5.6-cloud-lts"
+}
